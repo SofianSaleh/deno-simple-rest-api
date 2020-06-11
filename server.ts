@@ -9,5 +9,4 @@ app.use(router.routes());
 router.use(router.allowedMethods());
 
 console.log(`server is running on port ${port}`);
-
 await app.listen({ port });
