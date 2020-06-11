@@ -11,8 +11,8 @@ const clientPg = new ClientPostgreSQL(clientOptions, {
   database: "football_test",
   hostname: "localhost",
   port: 5432,
-  user: `${Deno.env.get("USERNAME")}`,
-  password: `${Deno.env.get("PASSWORD")}`,
+  user: `postgres`,
+  password: `123456789`,
 });
 
 /** This is the final config object */
